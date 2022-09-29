@@ -132,6 +132,7 @@ public class Program {
         session.close();
         
         HibernatePersistence.getSessionFactory().close();
+        System.out.println("Harsha M Kumar");
 
 	}
 
